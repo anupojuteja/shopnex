@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const ProductContext = createContext();
 
-export const ProductProvider = ({ 
+export const ProductProvider = ({ children
     
  }) => {
   const [products, setProducts] = useState([]);
